@@ -1,0 +1,28 @@
+.signin_button{
+    background-color: #ffd814;
+    border: none;
+    font-size: 13px;
+    width: 100%;
+    padding: 9px;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0 0 0 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup_inner{
+    position: relative;
+    padding: 25px;
+    width: 100%;
+    background-color: white;
+}

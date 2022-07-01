@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+overflow-x: hidden;
+    font-size: 62.5%;
+}
+
+.home{
+    max-width: 150.0rem;
+    margin: auto;
+}
+
+.home_banner{
+    width: 100%;
+    mask-image: linear-gradient( rgba(0,0,0,1) 50%, rgba(0,0,0,0.01));
+    z-index: -1;
+    margin-bottom: -31.0rem;
+}
+
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin: 0 .6rem;
+}
+
+.home_rowBooks{
+    background-color: white;
+    margin: 1.5rem;
+    padding: 2.0rem;
+}
+
+.home_rowBooksSlider{
+    display: flex;
+    overflow-x: scroll;
+    gap: 1.5rem;
+    margin: 1.0rem 0;
+}
+
+.home_rowBooksSlider::-webkit-scrollbar{
+    /* background-color: white; */
+    height: .6rem;
+}
+
+.home_rowBooksSlider::-webkit-scrollbar:hover{
+    background-color: #525353;
+}
+
+.two_components{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.1rem;
+    width: 100%;
+    height: 30.0rem;
+    z-index: 1;
+}
+
+.component_one{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background-color: white;
+    padding: 2.0rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.signin_button{
+    background-color: #ffd814;
+    border: none;
+    font-size: 1.3rem;
+    width: 100%;
+    padding: .9rem;
+    border-radius: 1.5rem;
+    margin: 1.0rem auto;
+}
+
+.just_ad{
+    height: 42.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.just_adPic{
+    width: 33.5rem;   
+    flex: 0.8; 
+    object-fit: cover;
+    margin-bottom: 1.0rem;
+}
+
+.extra_link{
+    font-size: 1.3rem;
+    color: #3890a0;
+    cursor: pointer;
+}
+
+.product_fiveLinks{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    margin-top: 1.5rem;
+    padding: 2.0rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 42.0rem;
+    gap: 2.5rem;
+}
+
+.price{
+    font-size: 2.0rem;
+}
+
+.tablet_pic{
+    margin: auto;
+    height: 17.0rem;
+}
+
+.sponsored{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.ad_heading{
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.single_banner{
+    width: 97vw;
+    margin: 1.5rem;
+}
+
+.single_bannerImage{
+    width: 70%;
+    margin: auto;
+}
+
+.bannerImage{
+    width: 100%;
+    margin: auto;
+}
+
+.gray{
+    color:#525353;
+}
+
+.four_products{
+    width: 100%;
+    height: 42.0rem;
+    margin-top: 1.5rem;
+    background-color: white;
+    padding: 2.0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+}
+
+.four_products >img{
+    width: 15.0rem;
+    margin: auto;
+}
+.thumbnails{
+    display: flex;
+    gap: 1.0rem;
+}
+
+.thumbnails>img{
+    border: .1rem solid gray;
+}
+
+.home_fourProducts{
+    background-color: white;
+    padding: 2.0rem;
+    margin-top: 1.5rem;
+    height: 42.0rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.home_rowMultiple{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2;
+    gap: 2.2rem;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.home_rowMultiple img, .home_rowMultiple span {
+    cursor: pointer;
+    width: 12.5rem;
+    height: 12.0rem;
+    object-fit: cover;
+}
+
+.signin_space{
+    background-color: white;
+    margin-top: 1.0rem;
+    padding: 1.5rem;
+}
+
+.signin{
+    font-size: 1.4rem;
+    width: 20vw;
+    text-align: center;
+    margin: 2.0rem auto;
+}
